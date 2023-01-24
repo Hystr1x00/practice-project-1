@@ -1,0 +1,302 @@
+/* Style */
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+.Total {
+    width: 750px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+    
+}
+
+
+.Hero {
+    background-image: url(Aset/wtf3cropped.png);
+    background-size: cover;
+    width: 750px;
+    height: 400px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    transition: all 0.5s linear;
+    filter: grayscale(100%);
+}
+
+.Hero:hover {
+    filter: grayscale(0%);
+}
+
+.Header {
+    width: auto;
+    height: 55px;
+    background-color:rgb(83, 83, 83);
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    margin-top: 19px;
+
+}
+
+
+
+.NavBar ul li{
+    display: inline-block;
+    background-color: rgb(155, 155, 155);
+    font-family: sans-serif;
+    margin-right: 10px;
+    margin-top: 15px;
+    border: 2px solid rgb(31, 31, 31);
+
+}
+
+.NavBar ul li a:hover {
+    padding: 5px;
+}
+.NavBar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    margin: 5px;
+    
+}
+
+.Tittle {
+    font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.Me {
+    padding-bottom: 25px;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+
+.Desk {
+    width: 400px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    line-height: 150%;
+
+}
+
+
+.Judul {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+
+.Gambar {
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    margin: 35px;
+    margin-top: 0px;
+    border: 3px solid black;
+}
+
+
+.Gambar1 {
+    background-image: url(Aset/Packing.jpg);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border: 10px solid rgb(191, 191, 191);
+    border-bottom: 30px solid rgb(191, 191, 191);
+    margin: 25px;
+    box-shadow: 5px 5px 10px grey;
+    transition: all 0.1s linear;
+}
+
+
+.packing {
+    margin-top: 160px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.Gambar1:hover {
+    padding: 5px;
+}
+
+
+.Gambar2 {
+    background-image: url(Aset/Angkut.jpg);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border: 10px solid rgb(191, 191, 191);
+    border-bottom: 30px solid rgb(191, 191, 191);
+    margin: 25px;
+    box-shadow: 5px 5px 10px grey;
+    transition: all 0.1s linear;
+}
+
+.Gambar2 .Angkut {
+    text-decoration: none;
+    color: black;
+}
+
+.Gambar2:hover {
+    padding: 5px;
+}
+
+.Angkut {
+    margin-top: 160px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+
+.Gambar3 {
+    background-image: url(Aset/Beres.jpg);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border: 10px solid rgb(191, 191, 191);
+    border-bottom: 30px solid rgb(191, 191, 191);
+    margin: 25px;
+    box-shadow: 5px 5px 10px grey;
+    transition: all 0.1s linear;
+}
+
+.Gambar3 .Sampe {
+    color: black;
+}
+
+.Gambar3:hover {
+    padding: 5px;
+}
+
+.Sampe {
+    margin-top: 160px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.Sosmed {
+    margin: 15px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.Ikon {
+    margin-left: 25%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+.Media {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+.IG {
+    background-image: url(Aset/IG_ikon.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    display: flex;
+    margin-bottom: 15px;
+
+}
+.Instagram {
+    margin-left: 30px;
+    margin-top: 5px;
+    padding-top: 0px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.TT {
+    background-image: url(Aset/Tiktok.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-top: 0px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.Tiktok {
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 6px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.Gmail {
+    background-image: url(Aset/Gmail.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 2px;
+    display: flex;
+    margin-bottom: 0px;
+}
+.Email {
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 28px;
+    color: black;
+    text-decoration: none;
+}
+
+.Footer {
+    background-color: rgb(83, 83, 83);
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    margin-bottom: 25px;
+}
+.Tulisan {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 12px;
+    margin-top: 5px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    line-height: 10px;
+    color: azure;
+}
+.Copy{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 8px;
+    margin-top: 5px;
+    line-height: 15px;
+}
